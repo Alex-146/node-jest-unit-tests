@@ -1,0 +1,19 @@
+{
+  "name": "node-jest-unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
